@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package quarks_tech.protoevent.v1;
+
+import "google/protobuf/descriptor.proto";
+
+option go_package = "github.com/quarks-tech/protoevent/quarks-tech/protoevent/v1;protoevent";
+
+extend google.protobuf.MessageOptions {
+  optional bool enabled = 1081;
+}

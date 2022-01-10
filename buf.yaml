@@ -1,0 +1,11 @@
+version: v1
+name: buf.build/quarks-tech/protoevent
+build:
+  excludes:
+    - example
+lint:
+  use:
+    - DEFAULT
+breaking:
+  use:
+    - FILE
