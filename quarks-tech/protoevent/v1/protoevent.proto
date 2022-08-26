@@ -8,10 +8,5 @@ option go_package = "github.com/quarks-tech/protoevent/quarks-tech/protoevent/v1
 
 extend google.protobuf.MessageOptions {
   optional bool enabled = 1081;
-
-  // If not set, auto generated
-  optional string topic = 1082;
-
-  // If not set, auto generated
   optional string event_type = 1083;
 }
